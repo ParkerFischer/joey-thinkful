@@ -1,0 +1,62 @@
+header{
+background-color: #0B1C51; 
+}
+
+header h1{
+font-size:  52px;
+color: #fff;
+text-align: center;
+
+}
+
+header nav{
+
+display:flex;
+justify-content: center;
+
+}
+
+header nav ul{
+list-style: none;
+display:flex;
+padding-left: 0;
+
+}
+
+nav ul li a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+nav ul li:last-child a{
+
+    margin-right:0
+}
+
+
+
+
+
+@media all and (min-width: 650px) {
+    header h1{
+        font-size:  48px;
+        color: #fff;
+        margin-top: 5px;
+       margin-bottom: 5px;
+     
+        }
+
+    header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    }
+    
+    header nav{
+        
+        margin-top: 8px;
+        }
+
+}
